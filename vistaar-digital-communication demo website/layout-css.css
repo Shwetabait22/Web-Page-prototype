@@ -1,0 +1,1791 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    top: 0;
+    left: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* ........Desktop View Start.......... */
+
+/* first-containerbdy */
+.first-containerbdy{
+    position: absolute;
+    width: 1440px;
+    height: 120.3%;
+    top: 0px;
+    background: #5BD7E8;
+    left: 48px;
+    display: block;
+}
+
+.img-logo{
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 21px;
+}
+.logo-text{
+    position: absolute;
+    width: 73px;
+    height: 23px;
+    left: 54px;
+    top: 103px;
+
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 143%;
+    /* identical to box height, or 23px */
+    text-align: center;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.vertical-line{
+    border-left: 3px solid #FF018F;
+    height: 810px;
+    left: 1367px;
+    position: absolute;
+    width: 1215.08px;
+}
+.vertical-line1{
+    border-left: 3px solid #fff;
+    height: 810px;
+    left: 1367px;
+    position: absolute;
+    width: 1215.08px;
+}
+.Bars{
+    position: absolute;
+    left: 96.25%;
+    right: 0.49%;
+    top: 48.33%;
+    bottom: 48.43%;
+    z-index: 1;
+}
+.Bars button{
+    border: none;
+    background: none;
+}
+.scribble-up{
+    position: absolute;
+    width: 196px;
+    height: 131px;
+    left: 1000.27px;
+    top: 90px;
+    transform: rotate(10.9deg);
+}
+.body-img{
+    position: absolute;
+    width: 740px;
+    height: 493px;
+    left: 710px;
+    top: 148px;
+}
+.body-text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4px;
+    /* or 134px */
+    text-align: center;
+    letter-spacing:6%;
+    text-transform: uppercase;
+    transform: rotate(-1.52deg);
+}
+.body-text .first-text{
+    position: absolute;
+    width:623px;
+    height: 134px;
+    left: 35px;
+    top: 144.49px;
+    color: #4700FF;
+    font-size: 98px;
+}
+.img-text{
+    position: absolute;
+    width: 597px;
+    height: 298px;
+    left: 86px;
+    top: 211px;
+    background: url(img/img-text.png);
+}
+.speaker-img{
+    position: absolute;
+    width: 266.26px;
+    height: 266.26px;
+    left: 549px;
+    top: 138.95px;
+
+    background: url(img/speaker.png);
+    transform: rotate(-3.28deg);
+}
+.body-text .second-text{
+    position: absolute;
+    width: 605px;
+    height: 140px;
+    left: 91.7px;
+    top: 440.77px;
+    color: #FF007F;
+    font-size: 105px;
+}
+.strok-color{
+    position: absolute;
+    width: 492.48px;
+    height: 70.01px;
+    left: 651px;
+    top: 638.59px;
+    background: url(img/color-strok.png);
+    transform: rotate(-1.0deg);
+}
+.scribbel-down{
+    position: absolute;
+    width: 197.55px;
+    height: 203.14px;
+    left: 510px;
+    top: 560px;
+    transform: rotate(1deg);
+}
+.third-text{
+    position: absolute;
+    width: 801px;
+    height: 71px;
+    left: 291px;
+    top: 630px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 71.5px;
+    text-align: center;
+    letter-spacing: 5.5%;
+    color: #4A0292;
+}
+@keyframes slide {
+    from{
+        transform: translateX(20%);
+    }
+    to{
+        transform: translateX(-15%);
+    }
+    
+}
+.horizontal-line{
+    width: 1440px;
+    height: 92px;
+    top: 809px;
+    position: absolute;
+    border:3px solid #000;
+    overflow: hidden;
+}
+.horizontal-txt{
+    display: inline-flex;
+    text-transform: uppercase;
+    margin-top: 26px;
+    justify-content: center;
+    animation: 5s slide infinite linear ;
+   margin-left: 30px;
+   margin-right: 30px;
+   position: absolute; width: 1440px;
+ 
+}
+.horizontal-txt p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 26px;
+    letter-spacing: 80%;
+    height: 36px;
+    text-align: center;
+    color: #4700FF;
+    padding-right: 100px;
+}
+
+/* first-containerbdy-menu */
+.first-containerbdy-menu{
+    position: absolute;
+    width: 1440px;
+    height: 120.3%;
+    top: 0px;
+    background: #FF018F;
+    left: 48px;
+    display: none;
+}
+.horizontal-line1{
+    width: 1440px;
+    height: 92px;
+    top: 809px;
+    position: absolute;
+    border:3px solid #000;
+    overflow: hidden;
+    background: #5BD7E8;
+}
+.menu-list{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 92px;
+    left: 113px;
+    top: 172px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-list a{
+    text-decoration: none;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 143%;
+    /* identical to box height, or 92px */
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+.Bars1{
+    position: absolute;
+    left: 96.25%;
+    right: 0.49%;
+    top: 48.33%;
+    bottom: 48.43%;
+    color:  #fff;
+    font-size: 45px;
+}
+
+/* second-container */
+.second-containerbdy{
+    position: absolute;
+    background: #FF007F;    
+    width: 1440px;
+    height: 930px;
+    left: 50px;
+    top: 120.6%;
+}
+.campaign-text{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.comapaign-idea{
+    position:absolute;
+    z-index: 2;
+}
+.comapaign-idea p{
+    font-family: 'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 137%;
+    text-align: center;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.comapaign-idea2{
+    position:absolute;
+    z-index: 1;
+    margin-top: -4px;
+    margin-left: -10px;
+}
+.comapaign-idea2 p{
+    font-family: 'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 137%;
+    text-align: center;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    color: #4700FF;
+}
+
+.campaign-imgcontainer{
+    width: 665px;
+    height: 734px;
+    margin-top: 70px;
+    margin-left: 374px;
+    background: url(img/campaign-cont1.png);
+    transition: 5s;
+
+    /* animation */
+    animation-name: animateimg;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animateimg {
+    0%{
+        background: url(img/campaign-cont1.png);
+    }
+    17%{
+        background: url(img/capmpaign-cont2.png);
+    }
+    32%{
+        background: url(img/capmpaign-cont3.png);
+    }
+    47%{
+        background: url(img/capmpaign-cont4.png);
+    }
+    66%{
+        background: url(img/capmpaign-cont5.png);
+    }
+    85%{
+        background: url(img/capmpaign-cont6.png);
+    }
+    100%{
+        background: url(img/capmpaign-cont7.png);
+    }
+    
+}
+
+.button button{
+    position: absolute;
+    width: 329px;
+    height: 68px;
+    margin-left: 554px;
+    margin-top: 15px;
+    background: #F3CB3B;
+    border-radius: 15px;
+}
+.button button a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* third-containerbdy */
+.third-containerbdy{
+    width: 1440px;
+    height: 940px;
+    left: 50px;
+    top: 244.8%;
+    background-color: #a6a3a3;
+    position: absolute;overflow: hidden;
+}
+.measure-text{
+    position: absolute;
+    width: 290px;
+    height: 184px;
+    margin-left: 1px;
+    top: 443.5px;
+    z-index: 2;
+}
+.measure-text p{
+    font-family:'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 143%;
+    /* or 92px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #9E04C5;
+    transform: rotate(-90deg);
+}
+.measure-text2{
+    position: absolute;
+    width: 290px;
+    height: 184px;
+    margin-left: 1px;
+    top: 433.5px;
+    z-index: 1;
+}
+.measure-text2 p{
+    font-family:'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 143%;
+    /* or 92px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000;
+    transform: rotate(-90deg);
+}
+.layout{
+    max-width: 1120px;
+    width: 100%;
+    height: 745px;
+    margin-left: 310px;
+    margin-top: 70px;
+    /* border: 1px solid #4700FF;   */
+    display: flex;
+    overflow: hidden;
+}
+.layout .layouts .info .title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.layout .layouts:not(.active) .label .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    height: 276px;
+    margin-left: 10.4px;
+}
+.layout .layouts:not(.active) .label .icon img{
+    width: 100%;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+:root{
+    --cb: cubic-bezier(.05,.61,.41,.95);
+}
+.layout .layouts .label .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    white-space: pre;
+    margin-top: 100px;
+    transition: 1s var(--cb);
+}
+.layout .layouts{
+    position: relative;
+    width:100%;
+    min-width: 241px;
+    left: 28px;
+    height: 680px;
+    background: var(--bg);
+    top: 23px;
+    overflow: hidden;
+    margin: 22px;
+    cursor: pointer;
+    transition: 0.5s var(--cb);
+    border-radius: 50px;
+    transition: 2s;
+}
+.layout .layouts:not(.active) .label .title{
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 234px;
+    height: 57px;
+    top: 480px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    bottom: 20px;
+}
+.layout .layouts:not(.active) .label .desc{
+    display: none;
+}
+.layout .layouts.active {
+    flex-grow: 10000;
+    min-width: 495px;
+}
+.layout .layouts.active .label{
+    transform: rotate(0deg);
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 108%;
+    /* or 69px */
+    text-align: center;
+    letter-spacing: 0.015em;
+}
+.layout .layouts.active .label .title{
+    margin-top: 10px;
+    height: 87px;
+    color: #FFFFFF;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 108%;
+    text-align: center;
+    letter-spacing: 0.015em;
+}
+.layout .layouts.active .label .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 317px;
+    margin-left: 34px;
+    margin-top: 40px;
+}
+.layout .layouts.active .label .icon img{
+    width: 100%;
+    margin-top: 90px;
+}
+.layout .layouts.active .label .desc{
+    justify-content: center;
+    text-align: center;
+    /* position: absolute; */
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 6px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.slide-btn{
+    /* margin-bottom: 580px; */
+    /* position: absolute; */
+    margin-left: 825px;
+    /* right: 25%; */
+    margin-top: 5px;
+    bottom: 25%;
+    /* text-align: center; */
+    left: 876px;
+}
+.slide-btn .nxt-Btn{
+    border-radius: 50px;
+    font-size: 40px;
+    border: none;
+    width: 73px;
+    height: 73px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin: 20px;
+    left: 6.25%;
+}
+
+.slide-btn .pre-Btn{
+    font-size: 30px;
+    border: none;
+    background: #a6a3a3;
+    color: #9E04C5;
+    text-decoration: underline;
+}
+
+
+/* fourth-countinerbdy */
+.fourth-countinerbdy{
+    position: absolute;
+    width: 1440px;
+    height: 761px;
+    left: 50px;
+    top: 370.6%;
+    background: #F3CB3B;
+}
+
+.create-campaign-text{
+    position: absolute;
+    width:958px;
+    height: 100px;
+    left: 297px;
+    top: 40px;
+    text-align: center;  
+    font-family:'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #2F42DC;
+    z-index: 1;
+}
+.create-campaign-text2{
+    position: absolute;
+    width: 958px;
+    height:100px;
+    left:290px;
+    top: 38px;
+    text-align: center;   
+    font-family:'Rubik Mono One', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 137%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+.create-camimg1{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 592px;
+    top: 200px;
+    background: url(img/create-campaign-img1.png);
+}
+.create-camimg2{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 491px;
+    top: 449px;
+    background: url(img/create-campaign-img2.png);
+}
+.create-camimg3{
+    position: absolute;
+    width: 509px;
+    height: 412px;
+    left: 640px;
+    top: 329px;
+    background: url(img/create-campaign-img3.png);
+}
+
+/* fivth-countainerbdy */
+.fivth-countainerbdy{
+    position: absolute;
+    width: 1440px;
+    height: 807px;
+    left: 50px;
+    top: 470.6%;
+    background: #4700FF;
+}
+.reactangle-container-slide{
+    display: flex;
+}
+
+.campType-img{
+    position: absolute;
+    width: 244px;
+    height: 213px;
+    left: 123px;
+    top: 5px;
+    background: url(img/camptype-img.png);
+}
+
+/* camptype-cont1 */
+.camptype-cont1{
+    position: absolute;
+    top: 270px;
+    display: flex;
+}
+.camptype-contimg1{
+    width: 40px;
+    height: 38.05px;
+    margin-left: 82px;
+    background: url(img/camptype-textimg1.png);
+}
+.camptype-conttext1{
+    width: 332px;
+    height: 46px;
+    margin-left: 33px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 143%;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+/* camptype-cont2 */
+.camptype-cont2{
+    position: absolute;
+    top: 360px;
+    display: flex;
+}
+.camptype-cont2 .camptype-contimg2{
+    width: 40px;
+    height: 38.05px;
+    margin-left: 82px;
+    background: url(img/camptype-textimg2.png);
+}
+
+/* camptype-cont3 */
+.camptype-cont3{
+    position: absolute;
+    top: 490px;
+    display: flex;
+}
+.camptype-cont3 .camptype-contimg3{
+    width: 40px;
+    height: 38.05px;
+    margin-left: 82px;
+    background: url(img/camptype-textimg3.png);
+}
+
+/* camptype-cont4 */
+.camptype-cont4{
+    position: absolute;
+    top: 610px;
+    display: flex;
+}
+.camptype-cont4 .camptype-contimg4{
+    width: 40px;
+    height: 38.05px;
+    margin-left: 82px;
+    background: url(img/camptype-textimg4.png);
+}
+
+/* camptype-cont4 */
+.camptype-cont5{
+    position: absolute;
+    top: 690px;
+    display: flex;
+}
+.camptype-cont5 .camptype-contimg5{
+    width: 40px;
+    height: 38.05px;
+    margin-left: 82px;
+    background: url(img/camptype-textimg5.png);
+}
+
+/* Rectangle-1 */
+.Rectangle-1{
+    position: absolute;
+    width: 851px;
+    height: 768px;
+    left: 554px;
+    top: 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: block;
+}
+
+.select-camptype-text{
+    position: absolute;
+    width: 912px;
+    height: 52px;
+    /* left: 156px; */
+    top: 20px;
+    text-align: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #3D159F;
+}
+
+/* rectangle-img-contain */
+.rectangle-img-contain{
+    display: flex;
+    width: 100%;
+}
+
+/* Select Campaign Type page */
+
+/* .rectangle-container1 */
+.rectangle-container1{
+    /* position: absolute; */
+    width: 166px;
+    height: 166px;
+    margin-left: 85px;
+    margin-top: 80px;
+    background: rgba(61, 21, 159, 0.44);
+    border-radius: 20px;
+}
+.rectangle-img-text1{
+    position: absolute;
+    width: 96px;
+    height: 34px;
+    margin-left: 35px;
+    margin-top: 170px;
+    text-align: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    color: #000000;
+}
+/* images */
+.rectangle-img-img1{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+.rectangle-img-img2{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.rectangle-img-img3{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+/* .rectangle-container 2 */
+.rectangle-container2{
+    /* position: absolute; */
+    width: 166px;
+    height: 166px;
+    margin-left: 85px;
+    margin-top: 20px;
+    background: rgba(61, 21, 159, 0.44);
+    border-radius: 20px;
+}
+.rectangle-img-text2{
+    position: absolute;
+    width: 120px;
+    height: 34px;
+    margin-left: 25px;
+    margin-top: 170px;
+    text-align: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    color: #000000;
+}
+/* images */
+.rectangle-img-img4{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.rectangle-img-img5{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 0.5px;
+    margin-top: 7px;
+}
+.rectangle-img-img6{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 4px;
+    margin-top: 7px;
+}
+
+/* rectangle-container 3 */
+.rectangle-container3{
+    /* position: absolute; */
+    width: 166px;
+    height: 166px;
+    margin-left: 85px;
+    margin-top: 40px;
+    background: rgba(61, 21, 159, 0.44);
+    border-radius: 20px;
+}
+.rectangle-img-text3{
+    position: absolute;
+    width: 96px;
+    height: 34px;
+    margin-left: 35px;
+    margin-top: 170px;
+    text-align: center;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+    text-align: center;
+
+    color: #000000;
+}
+/* images */
+.rectangle-img-img7{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    margin-left: 9px;
+    margin-top: 30px;
+}
+
+.Type-btnn .type-Nextbtn-1{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 489px;
+    top: 690px;
+    display: flex;
+    background: #4700FF;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Type-btnn .type-Prebtn-1{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 289px;
+    top: 690px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #5E20FF;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+/* Select Duration of campaign page */
+/* sec-headtext */
+.Rectangle-2{
+    position: absolute;
+    width: 851px;
+    height: 768px;
+    left: 554px;
+    top: 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: none;
+}
+.Type-btnn .type-Nextbtn-2{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 489px;
+    top: 690px;
+    display: flex;
+    background: #4700FF;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Type-btnn .type-Prebtn-2{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 289px;
+    top: 690px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #5E20FF;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.sec-headtext{
+    /* position: absolute; */
+    width: 240px;
+    height: 34px;
+    margin-left: 291px;
+    margin-top: 125px;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #0F0F0F;
+}
+
+.time-box{
+    display: flex;
+    position: absolute;
+    width: 238px;
+    height: 71px;
+    margin-left: 291px;
+    margin-top: 34px;
+    background: rgba(61, 21, 159, 0.41);
+}
+.time{
+    position: absolute;
+    width: 101px;
+    height: 51px;
+    margin-left: 31px;
+    margin-top: 14px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 143%;
+    letter-spacing: 0.055em;
+    color: #000000;
+}
+.down-arrow{
+    position: absolute;
+    margin-left: 134px;
+    /* right: 29.17%; */
+    margin-top: 14px;
+    bottom: 5%;
+}
+
+.calender{
+    width: 9px;
+    height: 18px;
+    margin-left: 242px;
+    margin-top: 164px;
+}
+
+
+/* Contact details */
+/* Rectangle-3 */
+.Rectangle-3{
+    position: absolute;
+    width: 851px;
+    height: 768px;
+    left: 554px;
+    top: 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: none;
+}
+.Type-btnn .type-Nextbtn-3{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 489px;
+    top: 690px;
+    display: flex;
+    background: #4700FF;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Type-btnn .type-Prebtn-3{
+    position: absolute;
+    width: 181px;
+    height: 52px;
+    left: 289px;
+    top: 690px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #5E20FF;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.label-1{
+    position: absolute;
+    width: 67px;
+    height: 94px;
+    margin-left: 114px;
+    margin-top: 213px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #3D159F;
+}
+.label-textarea{
+    position: absolute;
+    width: 299px;
+    height: 89px;
+}
+.label-textarea input{
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #4700FF;
+    border-radius: 5px;
+    padding: 4px 20px;
+    font-size: 28px;
+}
+
+.label-2{
+    position: absolute;
+    width: 147px;
+    height: 34px;
+    margin-left: 114px;
+    margin-top: 321px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #3D159F;
+}
+
+.label-3{
+    position: absolute;
+    width: 254px;
+    height: 34px;
+    margin-left: 114px;
+    margin-top: 429px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #3D159F;
+}
+.label-textarea3{
+    position: absolute;
+    width: 371px;
+    height: 153px;
+}
+.label-textarea3 textarea{
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #4700FF;
+    border-radius: 5px;
+    padding: 4px 20px;
+    font-size: 28px;
+}
+
+.label-img{
+    position: absolute;
+    width: 347px;
+    height: 310px;
+    left: 504px;
+    top: 292px;
+    background: url(img/label-text.png);
+}
+
+/* Activatr team will reachout soon page */
+.Rectangle1{
+    position: absolute;
+    width: 1440px;
+    height: 807px;
+    background: #4700FF;
+    display: none;
+}
+.select-camptype-text1{
+    position: absolute;
+    width: 1039px;
+    height: 98px;
+    left: 201px;
+    top: 36px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.done-img{
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 480px;
+    top: 160px;
+    background: url(img/done-img.png);
+}
+.done-text{
+    position: absolute;
+    width: 267px;
+    height: 71px;
+    left: 587px;
+    top: 692px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.done-text button{
+    position: absolute;
+    width: 105px;
+    height: 57px;
+    margin-left: 78px;
+    margin-top: 5px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 143%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #4700FF;
+}
+
+
+/* footer part */
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    left: 50px;
+    top: 578.5%;
+    background: #0E0E0E;
+}
+.footer-logo{
+    position: absolute;
+    width: 268px;
+    height: 246px;
+    left: -10px;
+    top: -45px;
+    background: url(img/white-logo.png);
+}
+
+.logo1{
+    position: absolute;
+    left: 480px;
+    margin-top: 56.67px;
+    margin-bottom: 16.66px;
+    display: flex;
+}
+.logo2{
+    position: absolute;
+    left: 480px;
+    margin-top: 110.67px;
+    margin-bottom: 16.66px;
+    display: flex;
+}
+.footer-logotxt{
+    margin-left: 25px;
+    color: #fff;
+}
+.address{
+    width: 350px;
+    position: absolute;
+    left: 980px;
+    margin-top: 66.67px;
+    margin-bottom: 16.66px;
+    display: flex;
+}
+.hor-line{
+    position: absolute;
+    width: 1429px;
+    height: 0px;
+    left: 19px;
+    top: 210px;
+
+    border: 1px solid #FFFFFF;
+}
+.footer-text-last{
+    position: absolute;
+    width: 870px;
+    height: 34px;
+    left: 303px;
+    top: 220px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+    letter-spacing: 0.015em;
+
+    color: #FEFEFE;
+}
+
+
+/* know More Button  2 html page*/
+
+.campaign-idea-headText{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    /* left: 358px; */
+    margin-top: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    text-align: center;
+    font-weight: 50;
+    font-size: 90px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #FF018F;
+}
+
+.campaign-idea-containerheadtext-1{
+    position: absolute;
+    width: 628px;
+    height: 193px;
+    left: 57px;
+    top: 228px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 133%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #4700FF;
+}
+.campaign-idea-containertext-1{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    left: 78px;
+    top: 175px;
+    text-align: start;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+
+.horizontal-box1{
+    position: absolute;
+    width: 488px;
+    height: 101px;
+    left: 715px;
+    top: 698px;
+    background: #F3CB3B;
+}
+.container-box1{
+    position: absolute;
+    width: 500px;
+    height: 382px;
+    left: 812px;
+    top: 370px;
+    background: #4700FF;
+}
+.containerimg-1{
+    position: absolute;
+    width: 723px;
+    height: 482px;
+    left: 712px;
+    top: 264px;
+    background: url(img/contBox-img1.png);
+}
+.vertical-box1{
+    position: absolute;
+    width: 133px;
+    height: 616px;
+    left: 1314px;
+    top: 214px;
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-2  */
+.campaign-idea-container-2 .campaign-idea-containerheadtext-2{
+    position: absolute;
+    width: 223px;
+    height: 92px;
+    left: 827px;
+    top: 980px;   
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 143%;
+    letter-spacing: 0.055em;   
+    color: #4700FF;
+}
+.campaign-idea-container-2 .campaign-idea-containerheadtext-2 .campaign-idea-containertext-2{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    left: 0;
+    top: 110px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+
+.horizontal-box2{
+    position: absolute;
+    width: 578px;
+    height: 111px;
+    left: 136px;
+    top: 1460px;
+    background: #F3CB3B;
+}
+.containerimg-2{
+    position: absolute;
+    width: 359px;
+    height: 382.58px;
+    left: 214px;
+    top: 1164px;
+    background: url(img/contBox-img2.png);z-index: 2;
+}
+.container-box2{
+    position: absolute;
+    width: 500px;
+    height: 452px;
+    left: 152px;
+    top: 1096px;
+    background: #4700FF;
+    z-index: 1;
+}
+
+.vertical-box2{
+    position: absolute;
+    width: 518px;
+    height: 566px;
+    left: 4px;
+    top: 942px;
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-3 */
+.campaign-idea-container-3 .campaign-idea-containerheadtext-3{
+    position: absolute;
+    width: 628px;
+    height: 193px;
+    left: 97px;
+    top: 1828px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 133%;
+    letter-spacing: 0.055em;
+    color: #4700FF;
+}
+.campaign-idea-container-3 .campaign-idea-containerheadtext-3 .campaign-idea-containertext-3{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    left: 0;
+    top: 110px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+.horizontal-box3{
+    position: absolute;
+    width: 747px;
+    height: 190px;
+    left: 700px;
+    top: 1933px;
+    background: #F3CB3B;
+}
+.containerimg-3{
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    left: 848px;
+    top: 1894px;
+    z-index: 2;
+    background: url(img/contBox-img3.png);
+}
+.container-box3{
+    position: absolute;
+    width: 500px;
+    height: 452px;
+    left: 821px;
+    top: 1899px;
+    z-index: 1;
+    background: #4700FF;
+}
+.vertical-box3{
+    position: absolute;
+    width: 120px;
+    height: 239px;
+    left: 747px;
+    top: 2110px;
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-4 */
+.campaign-idea-container-4 .campaign-idea-containerheadtext-4{
+    position: absolute;
+    width: 223px;
+    height: 92px;
+    left: 827px;
+    top: 2540px;   
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 143%;
+    letter-spacing: 0.055em;
+    color: #4700FF;
+}
+.campaign-idea-container-4 .campaign-idea-containerheadtext-4 .campaign-idea-containertext-4{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+.horizontal-box4{
+    position: absolute;
+    width: 575px;
+    height: 351px;
+    left: 0px;
+    top: 2771px;
+    background: #F3CB3B;
+}
+.containerimg-4{
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 139px;
+    top: 2589px;
+    z-index: 2;
+    background: url(img/contBox-img4.png);
+}
+.container-box4{
+    position: absolute;
+    width: 500px;
+    height: 461px;
+    left: 129px;
+    top: 2601px;
+    z-index: 1;
+    background: #4700FF;
+}
+.vertical-box4{
+    position: absolute;
+    width: 77px;
+    height: 264px;
+    left: 608px;
+    top: 2641px;
+    
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-5 */
+.campaign-idea-container-5 .campaign-idea-containerheadtext-5{
+    position: absolute;
+    width: 628px;
+    height: 193px;
+    left: 97px;
+    top: 3290px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 133%;
+    letter-spacing: 0.055em;
+
+    color: #4700FF;
+}
+.campaign-idea-container-5 .campaign-idea-containerheadtext-5 .campaign-idea-containertext-5{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    left: 0;
+    top: 110px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    /* or 46px */
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+
+.horizontal-box5{
+    position: absolute;
+    width: 578px;
+    height: 366px;
+    left: 744px;
+    top: 3519px; 
+    background: #F3CB3B;
+}
+.containerimg-5{
+    position: absolute;
+    width: 450px;
+    height: 468px;
+    left: 887px;
+    top: 3396px;
+    z-index: 2;
+    background: url(img/contBox-img5.png);
+}
+.container-box5{
+    position: absolute;
+    width: 500px;
+    height: 452px;
+    left: 862px;
+    top: 3396px;
+    z-index: 1;
+    background: #4700FF;
+}
+.vertical-box5{
+    position: absolute;
+    width: 170px;
+    height: 351px;
+    left: 1277px;
+    top: 3321px;
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-6 */
+.campaign-idea-container-6 .campaign-idea-containerheadtext-6{
+    position: absolute;
+    width: 223px;
+    height: 92px;
+    left: 827px;
+    top: 4050px;   
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 143%;
+    letter-spacing: 0.055em;
+    color: #4700FF;
+}
+.campaign-idea-container-6 .campaign-idea-containerheadtext-6 .campaign-idea-containertext-6{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+.horizontal-box6{
+    position: absolute;
+    width: 332px;
+    height: 317px;
+    left: 0px;
+    top: 4050px;
+    background: #F3CB3B;
+}
+.containerimg-6{
+    position: absolute;
+    width: 415px;
+    height: 427px;
+    left: 140px;
+    top: 4140px;
+    z-index: 2;
+    background: url(img/contBox-img6.png);
+
+}
+.container-box6{
+    position: absolute;
+    width: 500px;
+    height: 452px;
+    left: 69px;
+    top: 4140px;
+    z-index: 1;
+    background: #4700FF;
+}
+.vertical-box6{
+    position: absolute;
+    width: 170px;
+    height: 351px;
+    left: 488px;
+    top: 4268px;
+    background: #F3CB3B;
+}
+
+/* campaign-idea-container-7 */
+.campaign-idea-container-7 .campaign-idea-containerheadtext-7{
+    position: absolute;
+    width: 728px;
+    height: 193px;
+    left: 97px;
+    top: 4810px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 133%;
+    letter-spacing: 0.055em;
+    color: #4700FF;
+}
+.campaign-idea-container-7 .campaign-idea-containerheadtext-7 .campaign-idea-containertext-7{
+    position: absolute;
+    width: 555px;
+    height: 414px;
+    left: 0;
+    top: 110px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 143%;
+    letter-spacing: 0.015em;
+    color: #0E0E0E;
+}
+.horizontal-box7{
+    position: absolute;
+    width: 339px;
+    height: 170px;
+    left: 880px;
+    top: 5217px;  
+    background: #F3CB3B;
+}
+.containerimg-7{
+    position: absolute;
+    width: 433px;
+    height: 433px;
+    left: 1003px;
+    top: 4880px;
+    z-index: 2;
+    background: url(img/contBox-img7.png);
+}
+.container-box7{
+    position: absolute;
+    width: 500px;
+    height: 452px;
+    left: 969px;
+    top: 4880px;
+    z-index: 1;
+    background: #4700FF;
+}
+.vertical-box7{
+    position: absolute;
+    width: 339px;
+    height: 125px;
+    left: 1050px;
+    top: 4780px;
+    background: #F3CB3B;
+}
+
+/* ......End...... */
